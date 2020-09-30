@@ -9,10 +9,13 @@
 
 * Requires python, selenium, anti-captcha (pip install python-anticaptcha).
 
+* Works in Latest version of chrome.
+
 ## How to use?
 
- On Line number 21 & 23, give your udemy login-email id & udemy password, and you are done.
+* On Line number 21 & 23, give your udemy login-email id & udemy password, and you are done.
 
+* You need to install chromedriver & give its path in the PATH variable. 
 ### Note
 
 * I made this so it can only scrape data from the first page of tutorial-bar, as from the second pages most of the coupon codes are already expired.

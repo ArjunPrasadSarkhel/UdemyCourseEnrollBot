@@ -14,7 +14,7 @@ import warnings
      
 warnings.filterwarnings('ignore')
 
-PATH = "C:\Program Files (x86)\chromedriver.exe" #path of chromedriver
+PATH = "C:\Program Files (x86)\chromedriver.exe" #default path of chromedriver
 driver = webdriver.Chrome(PATH)
 driver.get("https://www.tutorialbar.com/all-courses/")
 
