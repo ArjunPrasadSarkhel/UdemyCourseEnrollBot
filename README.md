@@ -3,7 +3,7 @@
 
 # Video-link of the bot working
 
-* https://www.youtube.com/watch?v=u7dvwPBIMgI
+* **https://www.youtube.com/watch?v=u7dvwPBIMgI**
 
 ## Requirements
 
@@ -25,5 +25,5 @@
 
 #### Reminder
 
-** Always pay for the course that you want to support your mentor. These are just free coupons available for a certain period of time and not based on availaiblity. **
+**Always pay for the course that you want to support your mentor. These are just free coupons available for a certain period of time and not based on availaiblity.**
 
