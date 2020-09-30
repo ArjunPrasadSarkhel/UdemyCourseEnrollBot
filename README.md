@@ -28,5 +28,5 @@
 
 #### Reminder
 
-**Always pay for the course that you want to support your mentor. These are just free coupons available for a certain period of time and not based on availaiblity.**
+**Always pay for the course that you want to support your mentor. These are just free coupons available for a certain period of time and not based on quantity.**
 
