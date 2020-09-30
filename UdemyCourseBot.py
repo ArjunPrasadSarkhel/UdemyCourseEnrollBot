@@ -53,9 +53,9 @@ driver.get("https://www.udemy.com/join/login-popup/")
 # 	try:
 # 		solver = recaptchaV2Proxyless ()
 # 		solver.set_verbose ( 1 )
-# 		solver.set_key ( "bef708712a62ca6c3bde984a95379c79" )
-# 		solver.set_website_url ( "https://www.udemy.com/join/login-popup/" )
-# 		solver.set_website_key ( "6Lcj-R8TAAAAABs3FrRPuQhLMbp5QrHsHufzLf7b" )
+# 		solver.set_key ( "" ) #Your anti-captcha api key
+# 		solver.set_website_url ( "https://www.udemy.com/join/login-popup/" ) 
+# 		solver.set_website_key ( "6Lcj-R8TAAAAABs3FrRPuQhLMbp5QrHsHufzLf7b" )#udemys google recaptcha website key
 
 # 		g_response = solver.solve_and_return_solution ()
 # 		if g_response != 0 :
@@ -64,6 +64,8 @@ driver.get("https://www.udemy.com/join/login-popup/")
 # 		     print  ("task finished with error" + solver.error_code)
 # 	except: 
 # 		pass
+
+
 time.sleep(3)
 user_email = driver.find_element_by_name("email") 
 user_password = driver.find_element_by_name("password")
