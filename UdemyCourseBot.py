@@ -23,7 +23,7 @@ class Bot_driver:
 		self.udemy_useremail = " " #your udemy login email
 		self.udemy_pw = " " #your udemy password
 		
-	def driver(self):
+	def driver_bot(self):
 		#for getting tutorialsbar links of udemy courses
 		tutorialbarlinks = self.driver.find_element_by_class_name("rh-post-wrapper")
 		hrefs = [x.get_attribute('href') for x in tutorialbarlinks.find_elements_by_css_selector('a')]
@@ -106,6 +106,6 @@ class Bot_driver:
 		 	pass
 #Create instance of class and call the driver method
 if __name__ == '__main__':
-	obj = Bot_driver().driver()
+	obj = Bot_driver().driver_bot()
 	if obj:
 		print("PROCESS COMPLETED SUCESSFULLY")
