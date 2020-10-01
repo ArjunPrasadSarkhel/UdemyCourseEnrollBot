@@ -18,7 +18,7 @@ class Bot_driver:
 	def __init__(self):
 		
 		self.PATH = "C:\Program Files (x86)\chromedriver.exe" #default path of chromedriver
-		self.driver = webdriver.Chrome(PATH)
+		self.driver = webdriver.Chrome(self.PATH)
 		self.driver.get("https://www.tutorialbar.com/all-courses/")
 		self.udemy_useremail = " " #your udemy login email
 		self.udemy_pw = " " #your udemy password
