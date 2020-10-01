@@ -102,8 +102,8 @@ class Bot_driver:
 		 		     	print("g-response:" + g_response)
 		 		else:
 		 		   	print("task finished with error" + solver.error_code)
-		 	except: 
-		 		pass
+		except: 
+		 	pass
 #Create instance of class and call the driver method
 if __name__ == '__main__':
 	obj = Bot_driver().driver()
