@@ -83,7 +83,7 @@ class Bot_driver:
 				except BaseException as e:
 					print("You are already in this course or it was just a discount offer!!!")
 
-		driver.close()
+		self.driver.close()
 		return True
 		
 	def google_recaptcha(self):
